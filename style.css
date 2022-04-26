@@ -55,16 +55,19 @@ li {
 
 /* about */
 
-.about-wrapper {}
+.about-wrapper {
+    height: 640px;
+    overflow-x: hidden;
+}
 .about-block {
     display: flex;
     margin-left: 100px;
+    position: relative;
 }
 .icon {
     padding-right: 30px;
 }
 .about-content {
-    position: relative;
     width: 50%;
 }
 .about-content h2 {
@@ -77,9 +80,32 @@ li {
 }
 .about-content span p{
     width: 80%;
+    margin: 40px 0;
 }
 .pcimg {
     width: 70%;
     position: absolute;
-    left: 700px;
+    left: 660px;
+}
+
+/* projects */
+
+.projects-wrapper {
+    background: radial-gradient(#A7A9A6, #6D6F6C);
+}
+.projects-wrapper h2 {
+    color: #FFFFFF;
+    padding: 100px 0 30px 80px;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+.twitter-content {
+    display: flex;
+}
+.twitterclone {
+    width: 60%;
+    text-align: center;
+}
+.twitterclone img {
+    width: 80%;
 }
