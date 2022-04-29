@@ -55,7 +55,7 @@ li {
 
 /* about */
 
-.about-wrapper {
+#about {
     height: 640px;
     overflow-x: hidden;
 }
@@ -90,10 +90,11 @@ li {
 
 /* projects */
 
-.projects-wrapper {
+/* twitterclone */
+#projects {
     background: radial-gradient(#A7A9A6, #6D6F6C);
 }
-.projects-wrapper h2 {
+#projects h2 {
     color: #FFFFFF;
     padding: 100px 0 30px 80px;
     font-size: 40px;
@@ -108,4 +109,115 @@ li {
 }
 .twitterclone img {
     width: 80%;
+    vertical-align: bottom;
+}
+.site-detail1 {
+    width: 50%;
+}
+.site-detail1 h3 {
+    color: #FFFFFF;
+    font-size: 35px;
+    letter-spacing: 4px;
+}
+.site-detail1 p {
+    color: #FFFFFF;
+    width: 90%;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.sitelink {
+    margin-top: 70px;
+}
+.site-detail1 a {
+    text-decoration: none;
+    border: 1px solid #FFFF;
+    padding: 20px 35px;
+    margin-right: 50px;
+}
+.website1 {
+    color: #777976;
+    background-color: #FFFF;
+    letter-spacing: 3px;
+}
+.github1 {
+    letter-spacing: 3px;
+    color: #FFFF;
+}
+
+/* netflixclone */
+.netflix-content {
+    display: flex;
+    height: 827px;
+}
+.netflixclone {
+    width: 60%;
+}
+.netflixclone img {
+    width: 627px;
+    padding-left: 80px;
+}
+.site-detail2 {
+    width: 50%;
+    padding-top: 50px;
+}
+.site-detail2 h3 {
+    font-size: 35px;
+    letter-spacing: 4px;
+}
+.site-detail2 p {
+    width: 90%;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.sitelink {
+    margin-top: 70px;
+}
+.site-detail2 a {
+    text-decoration: none;
+    border: 1px solid #303030;
+    padding: 20px 35px;
+    margin-right: 50px;
+}
+.website2 {
+    color: #303030;
+    background-color: #FFFF;
+    letter-spacing: 3px;
+}
+.github2 {
+    letter-spacing: 3px;
+    color: #FFFF;
+    background-color: #303030;
+}
+
+/* contacts */
+.contacts {
+    background-color: #2F2F2F;
+    padding: 100px 0 40px 80px;
+}
+.contacts h3 {
+    color: #FFFFFF;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+.contacts p {
+    color: #FFFFFF;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.contacts img {
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.phone {
+    display: flex;
+}
+.mail {
+    display: flex;
+}
+footer {
+    background-color: #656363;
+    padding: 20px;
+    text-align: center;
+    color: #FFFFFF;
 }
